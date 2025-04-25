@@ -1,0 +1,8 @@
+on:
+  registry_package:
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+    - run: "echo \"Update6. .Pushing registry package new: GITHUB_SHA: $GITHUB_SHA, GITHUB_REF: $GITHUB_REF\""
